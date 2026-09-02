@@ -1,0 +1,2 @@
+export function Avatar({ children }) { return <span className="ui-avatar">{children}</span>; }
+export function AvatarFallback({ children }) { return <span className="avatar-fallback">{children}</span>; }

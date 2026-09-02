@@ -1,0 +1,1 @@
+export function Separator({ className = '' }) { return <div className={`ui-separator ${className}`} role="separator" />; }

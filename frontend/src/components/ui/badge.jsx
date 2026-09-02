@@ -1,0 +1,1 @@
+export function Badge({ className = '', variant = 'default', children }) { return <span className={`ui-badge badge-${variant} ${className}`}>{children}</span>; }
