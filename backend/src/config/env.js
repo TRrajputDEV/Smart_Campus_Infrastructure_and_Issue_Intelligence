@@ -1,1 +1,0 @@
-// Environment variable configuration placeholder.
