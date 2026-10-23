@@ -25,6 +25,8 @@ const dbconn = async () => {
         const client = await pool.connect();
         const result = await client.query("SELECT version();");
         console.log("Connection successful! Database version:", result.rows[0].version);
+        const data = await client.query("SELECT * FROM departments;");
+        console.log(data);
         
         client.release(); 
     } catch (error) {
